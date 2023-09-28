@@ -24,8 +24,8 @@
 ## ->Funcionamento
 
 - Página antes da requisição:
-<img src="https://github.com/LeticiaKOSilva/RequestsWithJavaScript/blob/main/Imagens/pagina.png" width="700px">
+<center><img src="https://github.com/LeticiaKOSilva/RequestsWithJavaScript/blob/main/Imagens/pagina.png" width="700px"></center>
 
 - Página depois da requisição:
-<img src="https://github.com/LeticiaKOSilva/RequestsWithJavaScript/blob/main/Imagens/requisicaoFeita.png" width="700px">
+<center><img src="https://github.com/LeticiaKOSilva/RequestsWithJavaScript/blob/main/Imagens/requisicaoFeita.png" width="700px"></center>
   
