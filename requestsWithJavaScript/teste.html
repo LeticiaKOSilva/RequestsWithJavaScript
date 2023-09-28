@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buscando Ruas</title>
+        <link rel="stylesheet" href="teste.css">
+    </head>
+
+    <body>
+        <!--Cabeçalho da página-->
+        <h1>Buscando ruas</h1>
+
+        <!--Div que contém todos os dados que serão coletados para a pesquisa-->
+        <div id="form">
+            <b>Forneça seu estado:</b>
+            <input type="text" id="estado"/><br>
+            <b>Forneça sua cidade: </b> 
+            <input type="text" id="cidade"/><br>
+            <b>Forneça sua rua: <b></b> 
+            <input type="text" id="rua"/><br>
+            <p><button id="btn">Procurar</button></p>
+        </div>
+
+        <!-- 
+            Div que receberá uma tabela com os resultados do conteúdo encontrado pela requisiçaõ 
+            feita pelo arquivo "teste.js" 
+        -->
+        <div id="test"></div>
+
+        <!--Chamando o arquivo javaScript-->
+        <script src="teste.js"></script>
+    </body>
+</html>

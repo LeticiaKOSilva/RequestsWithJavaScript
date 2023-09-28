@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: sans-serif;
+}
+
+/*Versão para PC e notebooks*/
+@media screen and (min-width: 1025px){
+  body{
+    width:100%;
+  }
+
+  h1{
+    font-size:40px;
+    text-align: center;
+    background-color: #BA55D3;
+    color: white;
+    padding: 6px;
+    margin-bottom:20px;
+    height: 50px;
+  }
+
+  input{
+    margin-left:10px;
+    margin-top: 8px;
+  }
+
+  #form{
+   padding: 20px;
+   width: 370px;
+   height: 120px;
+   margin: 0 auto;
+   border-radius: 10px;
+   border: 6px solid #454245;
+  }
+
+  p{
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  /* Estilizando a tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+  }
+  
+  /* Estilizando o cabeçalho */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Estilizando as células de dados */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Alterando a cor do fundo de cada linha de forma alternada */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+}
+
+/*Versão para tablet*/
+@media screen and (min-width: 601px) and (max-width: 1024px){
+  h1{
+    font-size:40px;
+    text-align: center;
+    background-color: #BA55D3;
+    color: white;
+    padding: 6px;
+    margin-bottom:20px;
+    height: 50px;
+  }
+
+  input{
+    margin-left:10px;
+    margin-top: 8px;
+  }
+
+  #form{
+    padding: 20px;
+    width: 370px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 6px solid #454245;
+   }
+ 
+   p{
+     padding-top: 10px;
+     text-align: center;
+   }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+   /* Estilizando o cabeçalho */
+   th {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Estilizando as células de dados */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Alterando a cor do fundo de cada linha de forma alternada */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+}
+
+/*Versão para celular*/
+@media screen and (min-width: 200px) and (max-width: 600px){
+  h1{
+    font-size:30px;
+    text-align: center;
+    background-color: #BA55D3;
+    color: white;
+    padding-top: 10px;
+    margin-bottom:20px;
+    height: 50px;
+  }
+
+  b{
+    margin-left: 5px;
+  }
+
+  input{
+    display: block;
+    margin-left:5px;
+    margin-top: 8px;
+  }
+
+  #form{
+    padding-top: 20px;
+    width: 190px;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 6px solid #454245;
+   }
+ 
+   p{
+     padding-top: 10px;
+     text-align: center;
+   }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+   /* Estilizando o cabeçalho */
+   th {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Estilizando as células de dados */
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Alterando a cor do fundo de cada linha de forma alternada */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+}
