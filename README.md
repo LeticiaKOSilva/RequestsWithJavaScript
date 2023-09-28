@@ -20,4 +20,9 @@
     - Logo em seguida criamos uma tabela e adicionamos seu cabeçalho;
     - Logo em seguida fizemos um for para pegar e passar para a tabela;
     - Depois passamos a tabela do arquivo js para o arquivo html para div com id="test".
- 
+
+## ->Funcionamento
+
+- Página antes da requisição:
+
+- Página depois da requisição:
